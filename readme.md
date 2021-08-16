@@ -7,7 +7,7 @@ The following package should be installed:
 - solhint
 - cspell-cli
 
-## 7. Solhint
+## Solhint
 
 Source: https://github.com/duaraghav8/Ethlint
 
@@ -19,7 +19,7 @@ Ethlint (Formerly Solium) analyzes your Solidity code for style & security issue
 npm install -g ethlint
 ```
 
-## 8. Spell check
+## Spell check
 
 Source: https://github.com/streetsidesoftware/cspell
 
@@ -31,6 +31,10 @@ The cspell mono-repo, a spell checker for code.
 npm install -g git+https://github.com/streetsidesoftware/cspell-cli
 ```
 
+# Usage
+```bash
+./linty.sh <filename.sol>
+```
 # Note
 
 The project is under development..!
