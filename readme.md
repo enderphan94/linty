@@ -39,4 +39,4 @@ npm install -g git+https://github.com/streetsidesoftware/cspell-cli
 !! place the file in /usr/local/bin/ to make it as a global command
 # Sample
 
-<img src="https://github.com/enderphan94/linty/sample.png?raw=true" width="65%" height="65%">
+<img src="https://github.com/enderphan94/linty/blob/main/sample.png" width="65%" height="65%">
