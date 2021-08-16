@@ -35,6 +35,8 @@ npm install -g git+https://github.com/streetsidesoftware/cspell-cli
 ```bash
 ./linty.sh <filename.sol>
 ```
+
+!! place the file in /usr/local/bin/ to make it as a global command
 # Note
 
 The project is under development..!
