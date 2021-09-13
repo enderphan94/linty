@@ -1,6 +1,9 @@
 # Linty tool
 
-aims to check for code linter in Solidity
+aims to check for code linter in Solidity, will check for:
+- solhint pattern
+- spell
+- uint (should be uint256)
 
 # Requirements
 The following package should be installed:
