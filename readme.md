@@ -6,9 +6,9 @@ aims to check for code linter in Solidity, will check for:
 - uint (should be uint256)
 - require() (require functions should explain the error message)
 
-```
 
 # Usage
+
 ```bash
 ./linty.sh <filename.sol>
 ```
