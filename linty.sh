@@ -1,4 +1,19 @@
 #!/bin/bash
+package_ethlint="ethlint"
+package_cspellcli="cspell-cli"
+if [ `npm list -g | grep -c $package_ethlint` -eq 0 ]; then
+    npm install -g ethlint
+    echo "ethlint has been installed"
+else
+		echo "ethlint checked: OK"
+fi
+
+if [ `npm list -g | grep -c $package_cspellcli` -eq 0 ]; then
+    npm install -g git+https://github.com/streetsidesoftware/cspell-cli
+    echo "cspell-cli has been installed"
+else
+		echo "cspell-cli checked: OK"
+fi
 
 if [ "$1" == "-h" ] || [ "$1" == "" ]
 then

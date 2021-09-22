@@ -6,33 +6,6 @@ aims to check for code linter in Solidity, will check for:
 - uint (should be uint256)
 - require() (require functions should explain the error message)
 
-# Requirements
-The following package should be installed:
-- solhint
-- cspell-cli
-
-## Solhint
-
-Source: https://github.com/duaraghav8/Ethlint
-
-Ethlint (Formerly Solium) analyzes your Solidity code for style & security issues and fixes them.
-
-#### Installation
-
-```bash
-npm install -g ethlint
-```
-
-## Spell check
-
-Source: https://github.com/streetsidesoftware/cspell
-
-The cspell mono-repo, a spell checker for code.
-
-#### Installation
-
-```bash
-npm install -g git+https://github.com/streetsidesoftware/cspell-cli
 ```
 
 # Usage
