@@ -29,3 +29,13 @@ if [ -n "$count" ]; then
 else
 	echo "No uint found"
 fi
+echo
+echo "======require() Check======"
+echo
+gr=$(egrep "require\(.*\)" $file| egrep -v "," | wc -l|tr -d ' ')
+if [ -n "$gr" ]; then
+	echo "$gr require() without error message have been found"
+	egrep -n "require\(.*\)" $file| egrep -v ","
+else
+	echo "All good"
+fi
