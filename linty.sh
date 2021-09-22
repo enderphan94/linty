@@ -32,7 +32,7 @@ fi
 echo
 echo "======require() Check======"
 echo
-gr=$(egrep "require\(.*\)" $file| egrep -v "," | wc -l|tr -d ' ')
+gr=$(egrep "require\(.*\)" $file| egrep -v "," | wc -l|tr -d ' ')  #we can use "require\([^,]*\);$"
 if [ -n "$gr" ]; then
 	echo "$gr require() without error message have been found"
 	egrep -n "require\(.*\)" $file| egrep -v ","
