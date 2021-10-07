@@ -39,7 +39,7 @@ echo
 echo "======uint Check======"
 echo
 count=$(grep -wn "uint" $file | wc -l|tr -d ' ')
-if [ -n "$count" ]; then
+if [ $count != 0 ]; then
 	echo "$count uint place(s) have been found"
 	echo ">>"
 	grep -wn "uint" $file
