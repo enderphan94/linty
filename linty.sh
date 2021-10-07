@@ -41,6 +41,8 @@ echo
 count=$(grep -wn "uint" $file | wc -l|tr -d ' ')
 if [ -n "$count" ]; then
 	echo "$count uint place(s) have been found"
+	echo ">>"
+	grep -wn "uint" $file
 else
 	echo "No uint found"
 fi
